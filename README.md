@@ -1,8 +1,8 @@
-Overview
+# Overview
 
 This code exports a handler function that handles incoming voice calls made to a Twilio number. The function uses the Twilio Voice API to respond to the call and the Twilio Message API to send an SMS with the call log information.
 
-Functionality
+# Functionality
 
 The handler function does the following:
 
@@ -14,6 +14,6 @@ Sends an SMS using the create method of the client's messages object. The SMS co
 
 Returns the Twilio Voice Response object to Twilio, either with a success or error callback.
 
-Usage
+# Usage
 
 This code can be used as part of a Twilio function to handle incoming calls and log information about the call. The FORWARDING_NUMBER and LOG_NUMBER context variables should be set with the appropriate values for your use case.
